@@ -6,7 +6,7 @@ const image = new Image();
 image.crossOrigin = "anonymous";
 let width, height;
 
-image.src = "https://dl.dropboxusercontent.com/s/1vj3bdlb0e6dvs0/chicho-terremoto-tres-puntos-colega.png?raw=1";
+image.src = "./chicho-terremoto-tres-puntos-colega.png";
 image.onload = function(e) {
     width = image.width;
     height = image.height;
